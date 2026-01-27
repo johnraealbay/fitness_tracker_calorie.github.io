@@ -1,4 +1,4 @@
-const rootStyles = getComputedStyle(document.documentElement);
+const rootStyles = getComputedStyle(document.documentElement); 
 const primaryColor = rootStyles.getPropertyValue('--primary-color').trim();
 const secondaryColor = rootStyles.getPropertyValue('--secondary-color').trim();
 const workoutForm = document.getElementById('workout-form');
