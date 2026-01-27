@@ -26,7 +26,7 @@ workoutForm.addEventListener('submit', function(event) {
     addWorkout(); // Add the new workout to the list
     workoutForm.reset(); // Clear the form inputs after submission
 });
-
+    
 // Load workouts from local storage
 function loadWorkouts() {
     const storedWorkouts = localStorage.getItem('workouts'); // Get workouts from storage
